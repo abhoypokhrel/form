@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stylish Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="stylishForm">
+            <h2>Sign Up</h2>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" required>
+                <span class="error-message" id="firstNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" required>
+                <span class="error-message" id="lastNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required>
+                <span class="error-message" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
